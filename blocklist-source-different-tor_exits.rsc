@@ -1,4 +1,4 @@
-# source=tor_exits list=blocklist_tor_exits entries=741
+# source=tor_exits list=blocklist_tor_exits entries=742
 :global blocklistSourceDifferentSync
 :global blocklistSourceDifferentIps [:toarray ""]
 :set blocklistSourceDifferentIps ($blocklistSourceDifferentIps,"2.56.10.36")
@@ -602,6 +602,7 @@
 :set blocklistSourceDifferentIps ($blocklistSourceDifferentIps,"185.247.226.95")
 :set blocklistSourceDifferentIps ($blocklistSourceDifferentIps,"185.252.232.218")
 :set blocklistSourceDifferentIps ($blocklistSourceDifferentIps,"185.254.196.141")
+:set blocklistSourceDifferentIps ($blocklistSourceDifferentIps,"186.240.149.160")
 :set blocklistSourceDifferentIps ($blocklistSourceDifferentIps,"188.68.41.191")
 :set blocklistSourceDifferentIps ($blocklistSourceDifferentIps,"188.68.49.235")
 :set blocklistSourceDifferentIps ($blocklistSourceDifferentIps,"188.68.52.231")
@@ -742,6 +743,6 @@
 :set blocklistSourceDifferentIps ($blocklistSourceDifferentIps,"217.60.198.90/31")
 :set blocklistSourceDifferentIps ($blocklistSourceDifferentIps,"217.60.198.92/30")
 :set blocklistSourceDifferentIps ($blocklistSourceDifferentIps,"217.60.198.96/31")
-$blocklistSourceDifferentSync sourceName="tor_exits" expectedCount=741
+$blocklistSourceDifferentSync sourceName="tor_exits" expectedCount=742
 :set blocklistSourceDifferentIps
 :global blocklistSourceDifferentSourceComplete "tor_exits"
